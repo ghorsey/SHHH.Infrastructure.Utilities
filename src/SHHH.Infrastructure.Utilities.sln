@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHHH.Infrastructure.Utilities", "SHHH.Infrastructure.Utilities\SHHH.Infrastructure.Utilities.csproj", "{1CD3289A-3811-46EC-94DB-94D11F7F2683}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHHH.Infrastructure.Utilities.Tests", "SHHH.Infrastructure.Utilities.Tests\SHHH.Infrastructure.Utilities.Tests.csproj", "{BA0CC93B-3E00-4C3E-AEE5-F4CEAB2F2E9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3F0D1777-A433-47E9-825E-F1B8073220B4}"
+	ProjectSection(SolutionItems) = preProject
+		SHHH.Infrastructure.Utilities\MAKEFILE = SHHH.Infrastructure.Utilities\MAKEFILE
+		..\README.md = ..\README.md
+		SHHH.Infrastructure.Utilities\SHHH.Infrastructure.Utilities.nuspec = SHHH.Infrastructure.Utilities\SHHH.Infrastructure.Utilities.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7D5782D9-918B-43CE-890F-35A9E923FEC3}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CD3289A-3811-46EC-94DB-94D11F7F2683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CD3289A-3811-46EC-94DB-94D11F7F2683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CD3289A-3811-46EC-94DB-94D11F7F2683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CD3289A-3811-46EC-94DB-94D11F7F2683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA0CC93B-3E00-4C3E-AEE5-F4CEAB2F2E9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA0CC93B-3E00-4C3E-AEE5-F4CEAB2F2E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA0CC93B-3E00-4C3E-AEE5-F4CEAB2F2E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA0CC93B-3E00-4C3E-AEE5-F4CEAB2F2E9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
